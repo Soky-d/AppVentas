@@ -52,7 +52,8 @@ def verify_password(plain_password: str, hashed_password: str) -> bool:
 # Ajusta el "http://localhost:3000" a la URL donde se ejecuta tu aplicación React
 origins = [
     "http://localhost:3000",  # La URL de tu aplicación React
-    "http://127.0.0.1:3000",
+    # "http://127.0.0.1:3000",
+    "https://https://appventasfront.onrender.com" # React en producción
     # Puedes añadir otras URLs si tu frontend se ejecuta en otros dominios/puertos
 ]
 
